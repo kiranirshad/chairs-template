@@ -228,6 +228,9 @@ padding: 10px 0px;
     .collection-box .card{
         border: none;
     }
+    .chairs-item .row{
+        margin: 0px !important;
+    }
     .chairs-div ul{
         display: flex;
         align-items: center;
@@ -248,8 +251,8 @@ padding: 10px 0px;
         cursor: pointer;
     }
     .chairs-div{
-        display: flex;
-        justify-content: space-between;
+        /* display: flex;
+        justify-content: space-between; */
         padding-top: 50px;
     }
     .itemm-1 a{
@@ -552,6 +555,12 @@ padding-bottom: 20px;
 #tabs{
     border: none;
     border-radius: 0px;
+    position: relative;
+    overflow: hidden;
+    /* padding: 1em 15px !important; */
+}
+.ui-tabs .ui-tabs-panel{
+       padding: 1em 0px !important;
 }
 #tabs ul{
     background: transparent;
